@@ -6,4 +6,5 @@
 
 当弹射器无法弹射时，会自动选择目前可以弹射的轨道。
 
+下载：https://github.com/chopinic/DSPAutoSelectEjector/releases/download/AutoSelectOrbit/DSPAutoSelectEjector.rar
 解压rar文件，将文件夹拖入\steamapps\common\Dyson Sphere Program\BepInEx\plugins
