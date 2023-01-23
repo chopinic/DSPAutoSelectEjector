@@ -27,7 +27,7 @@ namespace DSPAutoSelectEjector
         public static PlanetFactory factory;
         public static FactorySystem factorySystem;
         public static DysonSwarm dysonSwarm;
-        public static AstroPose[] currentAstroPoses;
+        public static AstroData[] currentAstroPoses;
 
         void Start()
         {
@@ -69,7 +69,7 @@ namespace DSPAutoSelectEjector
             factory = GameMain.localPlanet.factory;
             dysonSwarm = factory.dysonSphere == null ? (DysonSwarm)null : factory.dysonSphere.swarm;
             factorySystem = factory.factorySystem;
-            currentAstroPoses = factory.planet.galaxy.astroPoses;
+            currentAstroPoses = factory.planet.galaxy.astrosData;
             Logger.LogInfo("Total ejector number: " + factorySystem.ejectorCursor);
 
             for (int i = 1; i < factorySystem.ejectorCursor; i++)
