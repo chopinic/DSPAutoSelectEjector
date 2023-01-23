@@ -19,7 +19,7 @@ namespace DSPAutoSelectEjector
         public const int TIME_PERIOD = 5000;  //time between each check
         public const string GUID = "cn.yangguang.dsp.autoselectejector";
         public const string NAME = "AutoSelectEjector";
-        public const string VERSION = "1.0";
+        public const string VERSION = "1.1";
         public const string GAME_PROCESS = "DSPGAME.exe";
 
         public System.Threading.Timer Mytimer;
